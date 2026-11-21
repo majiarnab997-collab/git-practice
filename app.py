@@ -8,10 +8,13 @@ def second_file(age:int)->str:
 def third_file(places:str)->str:
   return f"{second_file(20)} and you are living in {places}"
 
+def fourth_file()->str:
+  return third_file("bhongir")
+
 print("Hello Git")
 
 name = "Student"
 
 print("Welcome", name)
 
-print(third_file("bhongir"))
+print(fourth_file())
